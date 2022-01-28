@@ -13,6 +13,7 @@
 		A7A2526F27A197CB0087CFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A2526D27A197CB0087CFBE /* Main.storyboard */; };
 		A7A2527127A197CB0087CFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A2527027A197CB0087CFBE /* Assets.xcassets */; };
 		A7A2527427A197CB0087CFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A2527227A197CB0087CFBE /* LaunchScreen.storyboard */; };
+		A7E5188D27A3D133006665FA /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E5188C27A3D133006665FA /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A7A2527027A197CB0087CFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7A2527327A197CB0087CFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7A2527527A197CB0087CFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E5188C27A3D133006665FA /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A7A2527027A197CB0087CFBE /* Assets.xcassets */,
 				A7A2527227A197CB0087CFBE /* LaunchScreen.storyboard */,
 				A7A2527527A197CB0087CFBE /* Info.plist */,
+				A7E5188C27A3D133006665FA /* Quote.swift */,
 			);
 			path = QuotesGenerator;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E5188D27A3D133006665FA /* Quote.swift in Sources */,
 				A7A2526C27A197CB0087CFBE /* ViewController.swift in Sources */,
 				A7A2526827A197CB0087CFBE /* AppDelegate.swift in Sources */,
 				A7A2526A27A197CB0087CFBE /* SceneDelegate.swift in Sources */,
